@@ -1,0 +1,49 @@
+:root {
+  --color1: #0264fb;
+  --color2: #ffb03a;
+  --color3: #000000;
+  --color4: #4b4b4b;
+  --color5: #ffffff;
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Montserrat (Light, Regular, Medium, Bold);
+}
+
+.mainbar-div {
+  background-color: var(--color1);
+  padding: 2em;
+}
+.navegation {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.navegation a {
+  text-decoration: none;
+  color: var(--color5);
+  margin: 1em;
+}
+
+@media (min-width: 768px) {
+  .navegation {
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .navegation a {
+    text-decoration: none;
+    color: var(--color5);
+    margin: 1em;
+  }
+}
