@@ -18,7 +18,7 @@ body {
   font-family: Montserrat (Light, Regular, Medium, Bold);
 }
 
-.mainbar-div {
+.bar-div {
   background-color: var(--color1);
   padding: 2em;
 }
@@ -46,4 +46,24 @@ body {
     color: var(--color5);
     margin: 1em;
   }
+}
+
+.path2 img{
+    height: 10em;
+    width: 50em;
+}
+
+@media (min-width:768px){
+    .path2 img{
+        height: 15em;
+        width: 100em;
+    } 
+}
+
+.main-content{
+    text-align: center;
+}
+.main-contente h2{
+    color: var(--color1);
+    font-size: 2em;
 }
